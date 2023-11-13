@@ -1,3 +1,12 @@
+## Abhishek Installation Steps 
+```
+ 1. python3.9 -m venv .venv  
+ 2. source .venv/bin/activate
+ 3. pip install -r requirements.txt
+ 4. python  run.py --target Abhishek.mp4 --output-video-quality 80 --source elonmusk.jpeg -o swapped.mp4 --execution-provider cuda --frame-processor face_swapper face_enhancer
+
+```
+
 ## This project has been discontinued
 
 Yes, you can still use this software. It just won't recieve any updates now.
